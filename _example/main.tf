@@ -8,10 +8,10 @@ locals {
   region      = "ca-central-1"
 
 
-  user_data = <<-EOT
-    #!/bin/bash
-    echo "Hello Terraform!"
-  EOT
+  # user_data = <<-EOT
+  #   #!/bin/bash
+  #   echo "Hello Terraform!"
+  # EOT
 }
 
 
